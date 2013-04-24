@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		642270AB1358C679004EDF7F /* GameStatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642270AA1358C679004EDF7F /* GameStatView.xib */; };
+		642270AD1358CA36004EDF7F /* SolutionPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 642270AC1358CA36004EDF7F /* SolutionPreviewView.xib */; };
+		642270B01358CA49004EDF7F /* SolutionPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 642270AF1358CA49004EDF7F /* SolutionPreviewView.m */; };
+		64419AD8135794DE007CF894 /* GameMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419AD7135794DE007CF894 /* GameMenuView.m */; };
+		64419ADF1357C785007CF894 /* PuzzleCompletedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419ADE1357C785007CF894 /* PuzzleCompletedView.m */; };
+		64419AE71357C901007CF894 /* PuzzleCompletedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64419AE61357C901007CF894 /* PuzzleCompletedView.xib */; };
+		64419AE91357D8C3007CF894 /* GameMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64419AE81357D8C3007CF894 /* GameMenuView.xib */; };
+		64419AEC1358B21B007CF894 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419AEB1358B219007CF894 /* Global.m */; };
+		64419AEF1358C44C007CF894 /* GameStatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64419AEE1358C449007CF894 /* GameStatView.m */; };
+		64A357B4134B8EC2006CF3EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357B3134B8EC2006CF3EC /* UIKit.framework */; };
+		64A357B6134B8EC2006CF3EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357B5134B8EC2006CF3EC /* Foundation.framework */; };
+		64A357B8134B8EC2006CF3EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357B7134B8EC2006CF3EC /* CoreGraphics.framework */; };
+		64A357BE134B8EC2006CF3EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64A357BC134B8EC2006CF3EC /* InfoPlist.strings */; };
+		64A357C1134B8EC2006CF3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357C0134B8EC2006CF3EC /* main.m */; };
+		64A357C4134B8EC2006CF3EC /* CameraPuzzleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357C3134B8EC2006CF3EC /* CameraPuzzleAppDelegate.m */; };
+		64A357C8134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357C7134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.m */; };
+		64A357CB134B8EC3006CF3EC /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A357C9134B8EC3006CF3EC /* MainWindow_iPhone.xib */; };
+		64A357CF134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357CE134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.m */; };
+		64A357D2134B8EC3006CF3EC /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A357D0134B8EC3006CF3EC /* MainWindow_iPad.xib */; };
+		64A357E1134B8FA6006CF3EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357DD134B8FA6006CF3EC /* AVFoundation.framework */; };
+		64A357E2134B8FA6006CF3EC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357DE134B8FA6006CF3EC /* CoreMedia.framework */; };
+		64A357E3134B8FA6006CF3EC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357DF134B8FA6006CF3EC /* CoreVideo.framework */; };
+		64A357E4134B8FA6006CF3EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A357E0134B8FA6006CF3EC /* QuartzCore.framework */; };
+		64A357F4134B93ED006CF3EC /* CameraPuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357F2134B93EB006CF3EC /* CameraPuzzleViewController.m */; };
+		64A357F5134B93ED006CF3EC /* CameraPuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64A357F3134B93EC006CF3EC /* CameraPuzzleViewController.xib */; };
+		64A357F8134B9991006CF3EC /* PuzzlePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357F7134B9990006CF3EC /* PuzzlePiece.m */; };
+		64A357FB134BAB74006CF3EC /* WBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A357FA134BAB72006CF3EC /* WBImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		642270AA1358C679004EDF7F /* GameStatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameStatView.xib; sourceTree = "<group>"; };
+		642270AC1358CA36004EDF7F /* SolutionPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolutionPreviewView.xib; sourceTree = "<group>"; };
+		642270AE1358CA48004EDF7F /* SolutionPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionPreviewView.h; sourceTree = "<group>"; };
+		642270AF1358CA49004EDF7F /* SolutionPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionPreviewView.m; sourceTree = "<group>"; };
+		64419AD6135794DE007CF894 /* GameMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenuView.h; sourceTree = "<group>"; };
+		64419AD7135794DE007CF894 /* GameMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenuView.m; sourceTree = "<group>"; };
+		64419ADD1357C784007CF894 /* PuzzleCompletedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuzzleCompletedView.h; path = CameraPuzzle.xcodeproj/PuzzleCompletedView.h; sourceTree = SOURCE_ROOT; };
+		64419ADE1357C785007CF894 /* PuzzleCompletedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuzzleCompletedView.m; path = CameraPuzzle.xcodeproj/PuzzleCompletedView.m; sourceTree = SOURCE_ROOT; };
+		64419AE61357C901007CF894 /* PuzzleCompletedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuzzleCompletedView.xib; sourceTree = "<group>"; };
+		64419AE81357D8C3007CF894 /* GameMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameMenuView.xib; sourceTree = "<group>"; };
+		64419AEA1358B218007CF894 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		64419AEB1358B219007CF894 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		64419AED1358C448007CF894 /* GameStatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatView.h; sourceTree = "<group>"; };
+		64419AEE1358C449007CF894 /* GameStatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStatView.m; sourceTree = "<group>"; };
+		64A357AF134B8EC2006CF3EC /* CameraPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A357B3134B8EC2006CF3EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64A357B5134B8EC2006CF3EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64A357B7134B8EC2006CF3EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64A357BB134B8EC2006CF3EC /* CameraPuzzle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraPuzzle-Info.plist"; sourceTree = "<group>"; };
+		64A357BD134B8EC2006CF3EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64A357BF134B8EC2006CF3EC /* CameraPuzzle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraPuzzle-Prefix.pch"; sourceTree = "<group>"; };
+		64A357C0134B8EC2006CF3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64A357C2134B8EC2006CF3EC /* CameraPuzzleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraPuzzleAppDelegate.h; sourceTree = "<group>"; };
+		64A357C3134B8EC2006CF3EC /* CameraPuzzleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraPuzzleAppDelegate.m; sourceTree = "<group>"; };
+		64A357C6134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraPuzzleAppDelegate_iPhone.h; path = iPhone/CameraPuzzleAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		64A357C7134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CameraPuzzleAppDelegate_iPhone.m; path = iPhone/CameraPuzzleAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		64A357CA134B8EC3006CF3EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		64A357CD134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraPuzzleAppDelegate_iPad.h; path = iPad/CameraPuzzleAppDelegate_iPad.h; sourceTree = "<group>"; };
+		64A357CE134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CameraPuzzleAppDelegate_iPad.m; path = iPad/CameraPuzzleAppDelegate_iPad.m; sourceTree = "<group>"; };
+		64A357D1134B8EC3006CF3EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		64A357DD134B8FA6006CF3EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		64A357DE134B8FA6006CF3EC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		64A357DF134B8FA6006CF3EC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		64A357E0134B8FA6006CF3EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64A357F1134B93EB006CF3EC /* CameraPuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPuzzleViewController.h; sourceTree = "<group>"; };
+		64A357F2134B93EB006CF3EC /* CameraPuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPuzzleViewController.m; sourceTree = "<group>"; };
+		64A357F3134B93EC006CF3EC /* CameraPuzzleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraPuzzleViewController.xib; sourceTree = "<group>"; };
+		64A357F6134B998F006CF3EC /* PuzzlePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzlePiece.h; sourceTree = "<group>"; };
+		64A357F7134B9990006CF3EC /* PuzzlePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzlePiece.m; sourceTree = "<group>"; };
+		64A357F9134BAB71006CF3EC /* WBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBImage.h; sourceTree = "<group>"; };
+		64A357FA134BAB72006CF3EC /* WBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A357AC134B8EC2006CF3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A357B4134B8EC2006CF3EC /* UIKit.framework in Frameworks */,
+				64A357B6134B8EC2006CF3EC /* Foundation.framework in Frameworks */,
+				64A357B8134B8EC2006CF3EC /* CoreGraphics.framework in Frameworks */,
+				64A357E1134B8FA6006CF3EC /* AVFoundation.framework in Frameworks */,
+				64A357E2134B8FA6006CF3EC /* CoreMedia.framework in Frameworks */,
+				64A357E3134B8FA6006CF3EC /* CoreVideo.framework in Frameworks */,
+				64A357E4134B8FA6006CF3EC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A357A4134B8EC1006CF3EC = {
+			isa = PBXGroup;
+			children = (
+				64A357B9134B8EC2006CF3EC /* CameraPuzzle */,
+				64A357B2134B8EC2006CF3EC /* Frameworks */,
+				64A357B0134B8EC2006CF3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A357B0134B8EC2006CF3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A357AF134B8EC2006CF3EC /* CameraPuzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A357B2134B8EC2006CF3EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A357DD134B8FA6006CF3EC /* AVFoundation.framework */,
+				64A357DE134B8FA6006CF3EC /* CoreMedia.framework */,
+				64A357DF134B8FA6006CF3EC /* CoreVideo.framework */,
+				64A357E0134B8FA6006CF3EC /* QuartzCore.framework */,
+				64A357B3134B8EC2006CF3EC /* UIKit.framework */,
+				64A357B5134B8EC2006CF3EC /* Foundation.framework */,
+				64A357B7134B8EC2006CF3EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64A357B9134B8EC2006CF3EC /* CameraPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				64419AEA1358B218007CF894 /* Global.h */,
+				64419AEB1358B219007CF894 /* Global.m */,
+				64A357C2134B8EC2006CF3EC /* CameraPuzzleAppDelegate.h */,
+				64A357C3134B8EC2006CF3EC /* CameraPuzzleAppDelegate.m */,
+				64A357F1134B93EB006CF3EC /* CameraPuzzleViewController.h */,
+				64A357F2134B93EB006CF3EC /* CameraPuzzleViewController.m */,
+				64A357F3134B93EC006CF3EC /* CameraPuzzleViewController.xib */,
+				64A357F6134B998F006CF3EC /* PuzzlePiece.h */,
+				64A357F7134B9990006CF3EC /* PuzzlePiece.m */,
+				642270AE1358CA48004EDF7F /* SolutionPreviewView.h */,
+				642270AF1358CA49004EDF7F /* SolutionPreviewView.m */,
+				642270AC1358CA36004EDF7F /* SolutionPreviewView.xib */,
+				64419AD6135794DE007CF894 /* GameMenuView.h */,
+				64419AD7135794DE007CF894 /* GameMenuView.m */,
+				64419AE81357D8C3007CF894 /* GameMenuView.xib */,
+				64419AED1358C448007CF894 /* GameStatView.h */,
+				64419AEE1358C449007CF894 /* GameStatView.m */,
+				642270AA1358C679004EDF7F /* GameStatView.xib */,
+				64419ADD1357C784007CF894 /* PuzzleCompletedView.h */,
+				64419ADE1357C785007CF894 /* PuzzleCompletedView.m */,
+				64419AE61357C901007CF894 /* PuzzleCompletedView.xib */,
+				64A357F9134BAB71006CF3EC /* WBImage.h */,
+				64A357FA134BAB72006CF3EC /* WBImage.m */,
+				64A357C5134B8EC2006CF3EC /* iPhone */,
+				64A357CC134B8EC3006CF3EC /* iPad */,
+				64A357BA134B8EC2006CF3EC /* Supporting Files */,
+			);
+			path = CameraPuzzle;
+			sourceTree = "<group>";
+		};
+		64A357BA134B8EC2006CF3EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A357BB134B8EC2006CF3EC /* CameraPuzzle-Info.plist */,
+				64A357BC134B8EC2006CF3EC /* InfoPlist.strings */,
+				64A357BF134B8EC2006CF3EC /* CameraPuzzle-Prefix.pch */,
+				64A357C0134B8EC2006CF3EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64A357C5134B8EC2006CF3EC /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				64A357C6134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.h */,
+				64A357C7134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.m */,
+				64A357C9134B8EC3006CF3EC /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		64A357CC134B8EC3006CF3EC /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				64A357CD134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.h */,
+				64A357CE134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.m */,
+				64A357D0134B8EC3006CF3EC /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A357AE134B8EC2006CF3EC /* CameraPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A357D5134B8EC3006CF3EC /* Build configuration list for PBXNativeTarget "CameraPuzzle" */;
+			buildPhases = (
+				64A357AB134B8EC2006CF3EC /* Sources */,
+				64A357AC134B8EC2006CF3EC /* Frameworks */,
+				64A357AD134B8EC2006CF3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraPuzzle;
+			productName = CameraPuzzle;
+			productReference = 64A357AF134B8EC2006CF3EC /* CameraPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A357A6134B8EC1006CF3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BSSP;
+			};
+			buildConfigurationList = 64A357A9134B8EC1006CF3EC /* Build configuration list for PBXProject "CameraPuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64A357A4134B8EC1006CF3EC;
+			productRefGroup = 64A357B0134B8EC2006CF3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A357AE134B8EC2006CF3EC /* CameraPuzzle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A357AD134B8EC2006CF3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A357BE134B8EC2006CF3EC /* InfoPlist.strings in Resources */,
+				64A357CB134B8EC3006CF3EC /* MainWindow_iPhone.xib in Resources */,
+				64A357D2134B8EC3006CF3EC /* MainWindow_iPad.xib in Resources */,
+				64A357F5134B93ED006CF3EC /* CameraPuzzleViewController.xib in Resources */,
+				64419AE71357C901007CF894 /* PuzzleCompletedView.xib in Resources */,
+				64419AE91357D8C3007CF894 /* GameMenuView.xib in Resources */,
+				642270AB1358C679004EDF7F /* GameStatView.xib in Resources */,
+				642270AD1358CA36004EDF7F /* SolutionPreviewView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A357AB134B8EC2006CF3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A357C1134B8EC2006CF3EC /* main.m in Sources */,
+				64A357C4134B8EC2006CF3EC /* CameraPuzzleAppDelegate.m in Sources */,
+				64A357C8134B8EC2006CF3EC /* CameraPuzzleAppDelegate_iPhone.m in Sources */,
+				64A357CF134B8EC3006CF3EC /* CameraPuzzleAppDelegate_iPad.m in Sources */,
+				64A357F4134B93ED006CF3EC /* CameraPuzzleViewController.m in Sources */,
+				64A357F8134B9991006CF3EC /* PuzzlePiece.m in Sources */,
+				64A357FB134BAB74006CF3EC /* WBImage.m in Sources */,
+				64419AD8135794DE007CF894 /* GameMenuView.m in Sources */,
+				64419ADF1357C785007CF894 /* PuzzleCompletedView.m in Sources */,
+				64419AEC1358B21B007CF894 /* Global.m in Sources */,
+				64419AEF1358C44C007CF894 /* GameStatView.m in Sources */,
+				642270B01358CA49004EDF7F /* SolutionPreviewView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64A357BC134B8EC2006CF3EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A357BD134B8EC2006CF3EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64A357C9134B8EC3006CF3EC /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A357CA134B8EC3006CF3EC /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		64A357D0134B8EC3006CF3EC /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A357D1134B8EC3006CF3EC /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A357D3134B8EC3006CF3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64A357D4134B8EC3006CF3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64A357D6134B8EC3006CF3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraPuzzle/CameraPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "CameraPuzzle/CameraPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64A357D7134B8EC3006CF3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraPuzzle/CameraPuzzle-Prefix.pch";
+				INFOPLIST_FILE = "CameraPuzzle/CameraPuzzle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A357A9134B8EC1006CF3EC /* Build configuration list for PBXProject "CameraPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A357D3134B8EC3006CF3EC /* Debug */,
+				64A357D4134B8EC3006CF3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A357D5134B8EC3006CF3EC /* Build configuration list for PBXNativeTarget "CameraPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A357D6134B8EC3006CF3EC /* Debug */,
+				64A357D7134B8EC3006CF3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A357A6134B8EC1006CF3EC /* Project object */;
+}
